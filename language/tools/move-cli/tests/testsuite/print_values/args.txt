@@ -1,0 +1,5 @@
+publish ../../../../../stdlib/modules
+publish ../../../../../stdlib/nursery
+publish src/modules
+
+run src/scripts/print_values.move --dry-run

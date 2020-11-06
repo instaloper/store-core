@@ -1,0 +1,5 @@
+publish ../../../../../stdlib/modules
+publish ../../../../../stdlib/nursery
+publish src/modules
+run src/scripts/compare.move --dry-run
+run src/scripts/set.move --dry-run
